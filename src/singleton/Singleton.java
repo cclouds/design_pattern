@@ -1,18 +1,18 @@
 package singleton;
 /**
- *  µ¥ÀıÄ£Ê½
- *  ÊµÀıÓĞÇÒ½öÓĞÒ»¸ö
- *  ¶öººÄ£Ê½
+ *  å•ä¾‹æ¨¡å¼
+ *  å®ä¾‹æœ‰ä¸”ä»…æœ‰ä¸€ä¸ª
+ *  é¥¿æ±‰æ¨¡å¼
  */ 
 public class Singleton {
-	//1.¹¹Ôì·½·¨Ë½ÓĞ»¯
+	//1.æ„é€ æ–¹æ³•ç§æœ‰åŒ–
 	private Singleton(){
 	}
 	
-	//2.´´½¨ÀàµÄÎ¨Ò»ÊµÀı
+	//2.åˆ›å»ºç±»çš„å”¯ä¸€å®ä¾‹
 	private static Singleton instance = new Singleton();
 	
-	//3.»ñÈ¡ÊµÀıµÄ·½·¨
+	//3.è·å–å®ä¾‹çš„æ–¹æ³•
 	public static Singleton getinstance(){
 		return instance;
 	}

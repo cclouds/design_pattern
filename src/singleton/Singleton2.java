@@ -1,18 +1,18 @@
 package singleton;
 
 /**
- * 单例模式
- * 懒汉模式
+ * 鍗曚緥妯″紡
+ * 鎳掓眽妯″紡
  */
 public class Singleton2 {
-	//1.构造方法私有化
+	//1.鏋勯�犳柟娉曠鏈夊寲
 	private Singleton2(){
 		
 	}
-	//2.创建类的唯一实例
+	//2.鍒涘缓绫荤殑鍞竴瀹炰緥
 	private static Singleton2 instance;
 	
-	//3.获取实例的方法
+	//2.鍒涘缓绫荤殑鍞竴瀹炰緥
 	public static Singleton2 getinstance(){
 		if(instance==null){
 			instance = new Singleton2();
