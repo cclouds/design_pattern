@@ -1,5 +1,6 @@
 package strategy;
 /**
+ * 策略模式
  * CashContext类
  * @author user
  *
