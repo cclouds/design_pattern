@@ -9,7 +9,7 @@ public class Work {
 	
 	private double hour;
 	
-
+	private boolean finish = false;
 
 	public State getState() {
 		return state;
@@ -25,12 +25,6 @@ public class Work {
 
 	public void setHour(double hour) {
 		this.hour = hour;
-	}
-	
-	private boolean finish = false;
-	
-	public boolean TaskFinished(){
-		return finish;
 	}
 	
 

@@ -8,7 +8,7 @@ public class EveningState extends State{
 
 	@Override
 	public void WriteProgram(Work w) {
-		if(w.TaskFinished()){
+		if(w.isFinish()){
 			w.setState(new RestState());
 			w.WriteProgram();
 		}else{
