@@ -12,11 +12,11 @@ public class Proxy extends Subject{
 	RealSubject realSubject;
 	
 	@Override
-	public void Requst() {
+	public void requst() {
 		if(null == realSubject){
 			realSubject = new RealSubject();
 		}
-		realSubject.Requst();
+		realSubject.requst();
 		
 	}
 	

@@ -7,14 +7,14 @@ package template_method;
 public class ConcreteClassA extends AbstractClass{
 
 	@Override
-	public void PrimitiveOperation1() {
+	public void primitiveOperation1() {
 		
 		System.out.println("具体类A方法1实现");
 		
 	}
 
 	@Override
-	public void PrimitiveOperation2() {
+	public void primitiveOperation2() {
 		
 		System.out.println("具体类A方法2实现");
 		

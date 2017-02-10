@@ -24,7 +24,7 @@ public class CashContext {
 		}
 	}
 	
-	public double GetResult(double money){
+	public double getResult(double money){
 	     return cashSuper.acceptCash(money);
 	}
 

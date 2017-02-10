@@ -8,6 +8,6 @@ package factory_method;
  */
 public interface Factory {
 	
-	Operation CreateOperation();
+	Operation createOperation();
 
 }

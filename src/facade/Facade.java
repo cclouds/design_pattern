@@ -17,29 +17,29 @@ public class Facade {
 		four = new SubSystemFour();
 	}
 	
-	public void MethodA(){
+	public void methodA(){
 		System.out.println("执行方法A");
-		one.MethodOne();
-		two.MethodOTwo();
-		three.MethodOThree();
-		four.MethodOFour();
+		one.methodOne();
+		two.methodOTwo();
+		three.methodOThree();
+		four.methodOFour();
 	}
 	
-	public void MethodB(){
+	public void methodB(){
 		System.out.println("执行方法B");
-		one.MethodOne();
-		two.MethodOTwo();
-		three.MethodOThree();
-		four.MethodOFour();
+		one.methodOne();
+		two.methodOTwo();
+		three.methodOThree();
+		four.methodOFour();
 	}
 	
 	
-	public void MethodC(){
+	public void methodC(){
 		System.out.println("执行方法C");
-		one.MethodOne();
-		two.MethodOTwo();
-		three.MethodOThree();
-		four.MethodOFour();
+		one.methodOne();
+		two.methodOTwo();
+		three.methodOThree();
+		four.methodOFour();
 	}
 	
 }

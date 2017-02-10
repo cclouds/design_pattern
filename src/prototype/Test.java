@@ -2,7 +2,7 @@ package prototype;
 
 
 /**
- * 测试类
+ * 测试类：原型模式
  * @author user
  *
  */

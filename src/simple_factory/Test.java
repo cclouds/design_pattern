@@ -1,6 +1,6 @@
 package simple_factory;
 /**
- * 测试类
+ * 测试类:简单工厂模式
  * @author user
  *
  */

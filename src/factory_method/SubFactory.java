@@ -8,7 +8,7 @@ package factory_method;
 public class SubFactory implements Factory{
 
 	@Override
-	public Operation CreateOperation() {
+	public Operation createOperation() {
 		return new OperationSub();
 	}
 

@@ -7,7 +7,7 @@ package facade;
  *
  */
 public class SubSystemTwo {
-	public void MethodOTwo() {
+	public void methodOTwo() {
 
 		System.out.println("子系统方法二");
 

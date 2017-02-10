@@ -23,14 +23,14 @@ public class GameRole {
 	/*
 	 * 状态显示
 	 */
-	public void StateDisplay(){
+	public void stateDisplay(){
 		System.out.println("角色当前状态：体力："+this.vit+"攻击力："+this.atk+"防御力:"+this.def);
 	}
 	
 	/*
 	 * 获得初始状态
 	 */
-	public void GetInitState(){
+	public void getInitState(){
 		this.atk = 100;
 		this.def = 100;
 		this.vit = 100;
@@ -39,7 +39,7 @@ public class GameRole {
 	/*
 	 * 获得战斗后的状态
 	 */
-	public void Fight(){
+	public void fight(){
 		this.atk = 0;
 		this.def = 0;
 		this.vit = 0;
@@ -73,7 +73,7 @@ public class GameRole {
 	/*
 	 * 保存角色状态
 	 */
-    public RoleStateMemento SaveState(){
+    public RoleStateMemento saveState(){
     	
     	return new RoleStateMemento(vit,atk,def);
     	
@@ -82,7 +82,7 @@ public class GameRole {
     /*
      * 回复角色状态
      */
-	public void RecoveryState(RoleStateMemento memento){
+	public void recoveryState(RoleStateMemento memento){
 		this.vit = memento.getVit();
 		this.def = memento.getDef();
 		this.atk = memento.getAtk();

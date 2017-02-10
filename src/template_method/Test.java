@@ -1,6 +1,6 @@
 package template_method;
 /**
- * 测试类
+ * 测试类:模板方法模式
  * @author user
  *
  */
@@ -8,10 +8,10 @@ public class Test {
 	public static void main(String[] args) {
 		AbstractClass ac;
 		ac = new ConcreteClassA();
-		ac.TemplateMethod();
+		ac.templateMethod();
 		
 		ac = new ConcreteClassB();
-		ac.TemplateMethod();
+		ac.templateMethod();
 	}
 
 }

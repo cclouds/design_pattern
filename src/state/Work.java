@@ -36,8 +36,8 @@ public class Work {
 		this.finish = finish;
 	}
 
-	public void WriteProgram(){
-		state.WriteProgram(this);
+	public void writeProgram(){
+		state.writeProgram(this);
 	}
 	
 	

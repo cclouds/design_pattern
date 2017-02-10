@@ -7,7 +7,7 @@ package proxy;
 public class RealSubject extends Subject{
 
 	@Override
-	public void Requst() {
+	public void requst() {
 		
 		System.out.println("真实的请求");
 		

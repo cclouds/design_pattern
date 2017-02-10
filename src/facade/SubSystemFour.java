@@ -6,7 +6,7 @@ package facade;
  */
 public class SubSystemFour {
 	
-	public void MethodOFour() {
+	public void methodOFour() {
 
 		System.out.println("子系统方法四");
 

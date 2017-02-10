@@ -7,7 +7,7 @@ package factory_method;
 public class DivFactory implements Factory{
 
 	@Override
-	public Operation CreateOperation() {
+	public Operation createOperation() {
 		return null;
 	}
 

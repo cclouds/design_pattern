@@ -1,6 +1,6 @@
 package observer;
 /**
- * 测试类
+ * 测试类:观察者模式
  * @author user
  *
  */

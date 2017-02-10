@@ -6,6 +6,6 @@ package proxy;
  */
 public abstract class Subject {
 	
-    public abstract void Requst();
+    public abstract void requst();
     
 }
