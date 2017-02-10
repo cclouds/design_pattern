@@ -1,6 +1,6 @@
 package builder;
 /**
- * 测试类
+ * 测试类:建造者模式
  * @author user
  *
  */
@@ -14,12 +14,12 @@ public class Test {
 		
 		Director director = new Director();
 		
-		director.Construct(b1);
-		Product p1 = b1.GetResult();
+		director.construct(b1);
+		Product p1 = b1.getResult();
 		p1.show();
 		
-		director.Construct(b2);
-		Product p2 = b2.GetResult();
+		director.construct(b2);
+		Product p2 = b2.getResult();
 		p2.show();
 	}
 

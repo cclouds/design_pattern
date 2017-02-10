@@ -7,12 +7,12 @@ package decorator;
  *
  */
 public class ConcreteDecoratorA extends Decorator {
-	public void Operation() {
+	public void operation() {
 		
-		super.Operation();
+		super.operation();
 		A();
 		System.out.println("具体装饰对象A的操作");
-		super.Operation();
+		super.operation();
 	}
 	
 	public void A(){

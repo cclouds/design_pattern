@@ -1,7 +1,7 @@
 package decorator;
 
 /**
- * 测试类
+ * 测试类:装饰模式
  * 
  * @author user
  *
@@ -15,7 +15,7 @@ public class Test {
 		d1.setComponent(c);
 		d2.setComponent(d1);
 		d3.setComponent(d2);
-		d3.Operation();
+		d3.operation();
 
 	}
 

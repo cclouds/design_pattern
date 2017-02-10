@@ -11,7 +11,7 @@ public class Adapter extends Target{
 	@Override
 	public void request() {
 		
-		adaptee.SpecificRequest();
+		adaptee.specificRequest();
 		
 	}
 	

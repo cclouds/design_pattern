@@ -5,9 +5,14 @@ package abstract_factory;
  *
  */
 public interface BaseDepartment {
+	/*
+	 * 插入新部门
+	 */
+	void insert(Department department);
 	
-	void Insert(Department department);
-	
-	Department GetDepartment(int id);
+	/*
+	 * 根据id获取部门
+	 */
+	Department getDepartment(int id);
 
 }

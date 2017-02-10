@@ -6,10 +6,10 @@ package builder;
  */
 public abstract class Builder {
 	
-	public abstract void BuildPartA();
+	public abstract void buildPartA();
 	
-	public abstract void BuildPartB();
+	public abstract void buildPartB();
 	
-	public abstract Product GetResult();
+	public abstract Product getResult();
 	
 }

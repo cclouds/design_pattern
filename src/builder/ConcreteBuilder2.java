@@ -8,21 +8,21 @@ public class ConcreteBuilder2 extends Builder{
 
 	Product product = new Product(); 
 	@Override
-	public void BuildPartA() {
+	public void buildPartA() {
 		
 		product.add("部件X");
 		
 	}
 
 	@Override
-	public void BuildPartB() {
+	public void buildPartB() {
 		
 		product.add("部件Y");
 		
 	}
 
 	@Override
-	public Product GetResult() {
+	public Product getResult() {
 		
 		return product;
 		

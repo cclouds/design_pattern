@@ -5,10 +5,10 @@ package builder;
  *
  */
 public class Director {
-	public void Construct(Builder builder){
+	public void construct(Builder builder){
 		
-		builder.BuildPartA();
-		builder.BuildPartB();
+		builder.buildPartA();
+		builder.buildPartB();
 		
 	}
 

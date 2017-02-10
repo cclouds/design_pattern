@@ -2,7 +2,7 @@ package abstract_factory;
 
 
 /**
- * 测试类
+ * 测试类:抽象工厂模式
  * 
  * @author user
  *
@@ -21,9 +21,9 @@ public class Test {
 
 		mysqlUser.getUSer(1);
 
-		mysqlDepartment.Insert(department);
+		mysqlDepartment.insert(department);
 
-		mysqlDepartment.GetDepartment(1);
+		mysqlDepartment.getDepartment(1);
 
 		
 		//读取db.properties使用反射
@@ -38,8 +38,8 @@ public class Test {
 			baseUser.getUSer(1);
 
 			BaseDepartment baseDepartment = dataAccess.createDepartment();
-			baseDepartment.Insert(department);
-			baseDepartment.GetDepartment(1);
+			baseDepartment.insert(department);
+			baseDepartment.getDepartment(1);
 
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block

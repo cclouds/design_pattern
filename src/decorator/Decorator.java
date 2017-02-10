@@ -20,9 +20,9 @@ public abstract class Decorator extends Component{
 
 
 	@Override
-	public void Operation() {
+	public void operation() {
 		if(null != component){
-			component.Operation();
+			component.operation();
 		}
 		
 	}

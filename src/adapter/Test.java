@@ -1,6 +1,6 @@
 package adapter;
 /**
- * 测试类
+ * 测试类:适配器模式 
  * @author user
  *
  */
