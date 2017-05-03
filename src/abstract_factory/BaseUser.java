@@ -1,6 +1,6 @@
 package abstract_factory;
 /**
- * BaseUserUser接口：用于客户端的访问
+ * BaseUser接口：用于客户端的访问
  * @author user
  *
  */

@@ -1,6 +1,6 @@
 package abstract_factory;
 /**
- * SqlServerFactory类实现BaseFactory,实例化SqlServerUser,SqlServerDepartment
+ * SqlServerFactory类实现BaseFactory接口，实例化SqlServerUser,SqlServerDepartment
  * @author user
  *
  */
