@@ -14,7 +14,7 @@ public class Singleton {
 	private static Singleton instance = new Singleton();
 	
 	//3.获取实例的方法
-	public static Singleton getinstance(){
+	public static Singleton getInstance(){
 		return instance;
 	}
 
