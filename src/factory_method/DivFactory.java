@@ -8,7 +8,7 @@ public class DivFactory implements Factory{
 
 	@Override
 	public Operation createOperation() {
-		return null;
+		return new OperationDiv();
 	}
 
 }
